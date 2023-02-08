@@ -8,7 +8,6 @@ public class RandomWord {
 
     public static void main(String[] args) {
 
-        String[] words = { };
         int index = 1;
         String champion = "";
         while (!StdIn.isEmpty()) {
