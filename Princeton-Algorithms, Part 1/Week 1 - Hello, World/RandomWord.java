@@ -1,20 +1,18 @@
 public class RandomWord {
-    
+
     public static void main(String[] args) {
 
-        int i = 0;
-        table = []
+        String[] words = { };
         while (!StdIn.isEmpty()) {
             System.out.println("****");
             String word = StdIn.readString();
-            //append to table word
-            
-            
-            i++;
+            // append to table word
+
+
         }
-        l = length of table
-        StdRandom.bernoulli();
-        
+        int length = words.length;
+        // StdRandom.bernoulli();
+
         // check if there are more strings to read from args
 
 
