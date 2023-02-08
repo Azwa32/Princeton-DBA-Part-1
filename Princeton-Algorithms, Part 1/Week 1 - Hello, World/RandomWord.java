@@ -1,26 +1,26 @@
+/* *****************************************************************************
+ *  Name:              Ada Lovelace
+ *  Coursera User ID:  123456
+ *  Last modified:     October 16, 1842
+ **************************************************************************** */
+
 public class RandomWord {
 
     public static void main(String[] args) {
 
         String[] words = { };
+        int index = 1;
+        String champion = "";
         while (!StdIn.isEmpty()) {
-            System.out.println("****");
+            StdOut.println("****");
             String word = StdIn.readString();
-            // append to table word
 
-
+            // run the probability of setting word as champion
+            if (StdRandom.bernoulli(1 / index)) {
+                champion = word;
+            }
+            index++;
         }
-        int length = words.length;
-        // StdRandom.bernoulli();
-
-        // check if there are more strings to read from args
-
-
-        // read the next string from args
-        // String word = StdIn.readString();
-
-        // run probability equation on sting
-        // StdRandom.bernoulli(p);
-
+        StdOut.println(champion);
     }
 }
