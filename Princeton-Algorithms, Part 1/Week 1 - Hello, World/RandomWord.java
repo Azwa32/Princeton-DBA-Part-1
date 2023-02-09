@@ -11,7 +11,6 @@ public class RandomWord {
         int index = 1;
         String champion = "";
         while (!StdIn.isEmpty()) {
-            StdOut.println("****");
             String word = StdIn.readString();
 
             // run the probability of setting word as champion
