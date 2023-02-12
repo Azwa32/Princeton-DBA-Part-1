@@ -19,6 +19,7 @@ public class RandomWord {
             }
             index++;
         }
+        
         StdOut.println(champion);
     }
 }
