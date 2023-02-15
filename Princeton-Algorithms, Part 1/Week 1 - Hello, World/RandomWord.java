@@ -17,12 +17,11 @@ public class RandomWord {
             String word = StdIn.readString();
 
             // run the probability of setting word as champion
-            if (StdRandom.bernoulli(1 / index)) {
+            if (StdRandom.bernoulli(1.0 / index)) {
                 champion = word;
             }
             index++;
         }
-        
         StdOut.println(champion);
     }
 }
