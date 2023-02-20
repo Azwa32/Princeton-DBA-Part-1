@@ -1,0 +1,7 @@
+Quadratic equasions
+Are when. for example, int id[18] requires for each index to find a matching index
+if you use a regular 'for' loop it means every point is touched a squared amount of times.
+this is a quadratic equasion and it is the slowest algorithim as it checks ALL indexes x the amopunt of indexes there are or id[] x id[]
+for large datasets Quadratic equasions are too slow.
+
+
