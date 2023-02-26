@@ -5,5 +5,5 @@ this is a quadratic equasion and it is the slowest algorithim as it checks ALL i
 for large datasets Quadratic equasions are too slow.
 
 Quick Union
-Quick union associates different data with one-another in a linked list form, where every unit hold the data + the int it links to.
+Quick union associates different data with one-another in a linked list form, where every unit holds the data + the next unit it links to.
 the avearge of accessing this data set is quicker than Quick Find but where a node of linked sets is = to N it still has to access every data point so it 'can' be too slow.
