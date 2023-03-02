@@ -7,3 +7,7 @@ for large datasets Quadratic equasions are too slow.
 Quick Union
 Quick union associates different data with one-another in a linked list form, where every unit holds the data + the next unit it links to.
 the avearge of accessing this data set is quicker than Quick Find but where a node of linked sets is = to N it still has to access every data point so it 'can' be too slow.
+
+Quick Union Improvements
+To improve upon Quick Union we ensure the tree from Quick Union does not get too tall. The improvement keeps track of the number of objects in each tree and balances by linking the root of a smaller tree to the root of a larger tree (aka union by height or "rank".
+
